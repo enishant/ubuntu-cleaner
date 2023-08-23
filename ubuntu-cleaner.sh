@@ -86,7 +86,6 @@ fi
 
 if command -v deborphan > /dev/null 2>&1; then
 	deborphan | xargs sudo apt-get -y remove --purge
-	sudo apt-get remove -y deborphan
 fi
 
 # APT
