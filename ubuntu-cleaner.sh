@@ -50,8 +50,8 @@ sync; echo 2 > /proc/sys/vm/drop_caches
 sync; echo 3 > /proc/sys/vm/drop_caches 
 
 # Clear Swap Space in Linux
-swapoff -a
-swapon -a
+sudo swapoff -a
+sudo swapon -a
 
 # System Log
 find /var/log -type f -name "*.gz" -delete
