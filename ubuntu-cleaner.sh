@@ -6,6 +6,7 @@ if ! command -v uc > /dev/null 2>&1; then
     sudo cp uc $UC_FILE
     sudo chmod +x $UC_FILE
     if command -v uc > /dev/null 2>&1; then
+    	rm uc
     	echo "Ubuntu Cleaner installed successfully."
     	echo "To run use command as \"sudo uc\""
     else
