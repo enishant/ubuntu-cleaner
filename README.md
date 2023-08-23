@@ -1,5 +1,20 @@
 # Ubuntu Cleaner
 
+## Installing
+Copy and execute following command to install Ubuntu Cleaner
+```
+wget -qO uc https://raw.githubusercontent.com/enishant/ubuntu-cleaner/master/ubuntu-cleaner.sh && sudo sh uc
+```
+
+## Usage
+To get started with Ubuntu Cleaner, run
+```
+sudo uc
+```
+
+## Contributing
+All contributions for enhancement and fixes will be accepted through pull request, you can also contribute by reporting issues, [Click here](https://github.com/enishant/ubuntu-cleaner/issues/new) to report an issue.
+
 ## References:
 - [How to Clean Up Your Ubuntu System?](https://www.esds.co.in/kb/how-to-clean-up-ubuntu-server/)
 - [Essential Guide: 5 Simple Ways To Free Up Space on Ubuntu](https://www.omgubuntu.co.uk/2016/08/5-ways-free-up-space-on-ubuntu)
