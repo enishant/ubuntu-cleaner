@@ -3,7 +3,7 @@
 ## Installing
 Copy and execute following command to install Ubuntu Cleaner
 ```
-wget -qO uc https://raw.githubusercontent.com/enishant/ubuntu-cleaner/master/ubuntu-cleaner.sh && sudo sh uc
+wget -qO uc https://raw.githubusercontent.com/enishant/ubuntu-cleaner/1.0/ubuntu-cleaner.sh && sudo sh uc
 ```
 
 ## Usage
