@@ -21,3 +21,6 @@ All contributions for enhancement and fixes will be accepted through pull reques
 - [How to Clear RAM Memory Cache, Buffer and Swap Space on Linux](https://www.tecmint.com/clear-ram-memory-cache-buffer-and-swap-space-on-linux/)
 - [How to remove uninstalled snaps from cache?](https://askubuntu.com/a/1156686)
 - [Free up disk space on Ubuntu - clean log, cache, archive packages/apt archives, orphaned packages, old kernel and remove the trash](https://gist.github.com/Iman/8c4605b2b3ce8226b08a)
+
+## License
+Ubuntu Cleaner is released under the MIT License. See [LICENSE](LICENSE) file for more details.
