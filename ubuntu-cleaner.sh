@@ -16,8 +16,10 @@ if ! command -v uc > /dev/null 2>&1; then
     exit
 fi
 
-# Thumbnails Cache
-sudo rm -fr /home/$USER/.cache/thumbnails/*
+# Clean Cache
+find $HOME/.cache -type f -atime +365 -print -delete # Delete cache which stored more than a year
+find $HOME/.cache -type d -empty -print -delete # Delete empty directories
+rm -fr /home/$USER/.cache/thumbnails/* # Delete thumbnail cache
 
 # Python Cache
 if command -v pip > /dev/null 2>&1; then
